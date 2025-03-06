@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Analista de dados</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#experiencia">Experiência</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, eu sou</h3>
+            <h1>Augusto Giacomini</h1>
+            <p>
+                Sou Engenheiro de Produção com experiência em Inteligência de Vendas e apaixonado por dados! Atualmente, estou cursando pós-graduação em Data Analytics na FIAP e me dedicando ao aprimoramento de Python, SQL e Power BI para fazer a transição para a área de Análise de Dados. 
+            </p>
+            <p>
+                Ao longo da minha jornada, tive a oportunidade de atuar em diferentes setores, sempre trazendo insights valiosos para a gestão e ajudando a transformar informações em decisões estratégicas. 🚀
+            </p>
+
+            <div class="social-media">
+                <a href="https://wa.me/55011996770906" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://github.com/antonioaugusto79" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:antonioaugusto79@gmail.com/" target="_blank"><i class='bx bx-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/augusto-giacomini-45b1b3173/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="curriculo/Curriculo1024.pdf" target="_blank" download class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxl-python'></i>
+                    <h3>PYTHON</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-data'></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-bar-chart'></i>
+                    <h3>POWER BI</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>EXCEL</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <!--<div class="home-img">
+            <img src="images/foto.png" alt="">
+        </div>-->
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/avatar.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Quem sou <span>EU</span></h2>
+            <h3>
+                Olá, Seja bem vindo ao meu Portifólio! Eu me chamo Augusto,
+                um apaixonado por análise de dados que adora aprender novas tecnologias
+                e resolver problemas com dados!
+            </h3>
+            <p>
+                Sou uma pessoa curiosa, proativa e analítica, sempre em busca de aprimorar minhas habilidades e explorar novas formas de resolver problemas. Gosto de trabalhar em equipe, compartilhar conhecimento e me comunicar de forma clara.
+            </p>
+            <p>
+                Este website é meu blog pessoal, onde escrevo sobre análise de dados e temas que me inspiram. Espero que minha jornada também possa inspirar você!
+
+                Obrigado por visitar meu portfólio e me conhecer melhor.
+            </p>
+            <a href= "curriculo/Curriculo1024.pdf" target="_blank" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/SENAI.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dashboard Logistica</h4>
+                    <p>Projeto final do curso de Power Bi do SENAI, criado com dados ficticios</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjM2YWExNzEtZjliNS00MmJkLTlmNjQtNzk5OWNmMWRjMTI3IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/aluralog.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dashboard Alura Log</h4>
+                    <p>Projeto da primeira semana do desafio de business intelligence da Alura</p>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZWI1ZTM5NzgtYmNhZi00MTRlLTlkMDYtOTk5NTQwNzU1ZjJmIiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9" target = "_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/dashexcel.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dashboard Excel</h4>
+                    <p>Dashboard dinâmico do curso de Excel Avançado pelo SENAI</p>
+                    <a href="https://1drv.ms/x/c/47b15ec908a05a96/EesnhcdK749KnlXt51Bv47sBqbsLyv9ong4zz-Mzn_LA3w?e=ZNDjVx " target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/analisepostech1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Análise Exploratória</h4>
+                    <p>Primeiro projeto da pós graduação pela FIAP</p>
+                    <a href="curriculo/TechChallenge1.pdf" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/modelo-preditivo.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Modelo Preditivo</h4>
+                    <p>Em desenvolvimento. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/logo-sql.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Banco de Dados</h4>
+                    <p>Em desenvolvimento.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container" id="experiencia">
+        <h2 class="heading">Experiências <span>Profissionais</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/logo-cisatrading.png" alt="">
+                        <h3>Cisa Trading</h3>
+                        <p>No meu primeiro emprego, trabalhei como auxiliar de escritório no setor jurídico da Cisa Trading. Eu fui responsável por organizar documentos, fazer a triagem de processos e realizar o arquivamento de arquivos importantes. Além disso, prestei suporte nas diligências, redigi correspondências e auxiliava na elaboração de relatórios e pareceres jurídicos. Também agendava compromissos e reuniões, garantindo que tudo estivesse bem organizado para a equipe jurídica. Meu trabalho era essencial para o bom andamento dos processos internos e para que os advogados pudessem se concentrar nas atividades estratégicas da área.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/logo-dentoflex.png" alt="">
+                        <h3>Dentoflex</h3>
+                        <p>
+                            Durante meu estágio na fábrica de implantes, atuei nas áreas de Qualidade, PCP e no Comercial. Na Qualidade, desenvolvi habilidades analíticas, garantindo conformidade com normas ISO9000. No PCP, otimizei a programação da produção e criei um processo automatizado para emissão de ordens, aumentando a eficiência.<br />
+                            No setor comercial, revitalizei o processo de trocas, implementei novas políticas de garantia e consignação e desenvolvi dashboards em Power BI e Excel para apoiar decisões estratégicas. Essas experiências aprimoraram minhas habilidades em análise de dados, gestão de processos e comunicação empresarial.
+                        </p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/logo-liven.png" alt="">
+                        <h3>Liven Imóveis</h3>
+                        <p>Na Livens Imóveis, sou responsável pela captação de imóveis para expandir o portfólio da empresa, garantindo uma seleção estratégica de propriedades de alto padrão. Além disso, desenvolvo dashboards em Power BI e Excel para monitorar o desempenho do SDR e dos captadores, fornecendo insights que otimizam processos e impulsionam a eficiência comercial. Essa atuação me permite aliar habilidades analíticas e estratégicas para contribuir com o crescimento da imobiliária.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
